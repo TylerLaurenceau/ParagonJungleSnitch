@@ -8,7 +8,7 @@ var setTime = 0;
 function updateTime(){
   setTimeout(function(){
       second++;
-      if(second > 3){
+      if(second > 59){
         minute++;
         second = 0;
       }

@@ -1,3 +1,19 @@
+body{
+  background: black;
+  color:white;
+}
+
+.navbar{
+  height:70px;
+  width:100%;
+  background: white;
+
+  img{
+    height:100%;
+    width:13%;
+  }
+}
+
 .timeContainer{
 text-align: center;
 border: 1px solid black;
