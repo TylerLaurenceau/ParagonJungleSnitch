@@ -6,6 +6,7 @@ var second = 0;
 var setTime = 0;
 
 function updateTime(){
+  $(".start").addClass("hidden")
   setTimeout(function(){
       second++;
       if(second > 59){
